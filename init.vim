@@ -1,4 +1,3 @@
-au ColorScheme * hi Normal ctermbg=None
 "    ____      _ __        _
 "   /  _/___  (_) /__   __(_)___ ___
 "   / // __ \/ / __/ | / / / __ `__ \

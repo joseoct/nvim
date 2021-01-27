@@ -113,6 +113,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'szw/vim-maximizer'
     " Neovim in Browser
     Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(1) } }
+    " Dracula Themes
+    Plug 'dracula/vim', { 'as': 'dracula' }
+    " CSS highlight
+    Plug 'hail2u/vim-css3-syntax'
     " Rainbow brackets
     " Plug 'luochen1990/rainbow'
     " Async Linting Engine

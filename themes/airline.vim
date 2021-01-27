@@ -1,3 +1,4 @@
+
 " enable tabline
 " let g:airline#extensions#tabline#enabled = 1
 " let g:airline#extensions#tabline#left_sep = ''
@@ -43,11 +44,11 @@ let g:airline_theme = 'one'
 set showtabline=2
 
 " We don't need to see things like -- INSERT -- anymore
-set noshowmode
+" set noshowmode
 
 " Sections
 " let g:airline_section_c = ''
-let g:airline_section_a = " NVCode"
+" let g:airline_section_a = " NVCode"
 " let g:airline_section_a = ""
 let g:airline_section_y = ''
 let g:webdevicons_enable_airline_tabline = 1
