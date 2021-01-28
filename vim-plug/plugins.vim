@@ -55,8 +55,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Status Line
-    Plug 'glepnir/galaxyline.nvim'
-    Plug 'kevinhwang91/rnvimr'
+    " Plug 'glepnir/galaxyline.nvim'
+    " Plug 'kevinhwang91/rnvimr'
     " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'yuki-ycino/fzf-preview.vim', { 'branch': 'release', 'do': ':UpdateRemotePlugins' }
@@ -83,7 +83,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Interactive code
     Plug 'metakirby5/codi.vim'
     " Better tabline
-    Plug 'romgrk/barbar.nvim'
+    " Plug 'romgrk/barbar.nvim'
     " undo time travel
     Plug 'mbbill/undotree'
     " Find and replace
@@ -119,6 +119,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'hail2u/vim-css3-syntax'
     " Eslint
     Plug 'w0rp/ale'
+    " OneDark theme
+    Plug 'joshdick/onedark.vim'
     " Rainbow brackets
     " Plug 'luochen1990/rainbow'
     " Async Linting Engine
@@ -161,8 +163,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Echo doc
     " Plug 'Shougo/echodoc.vim'
     " Plug 'hardcoreplayers/spaceline.vim'
-    " Plug 'vim-airline/vim-airline'
-    " Plug 'vim-airline/vim-airline-themes'
+    " Airline
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
     " Ranger
     " Plug 'francoiscabrol/ranger.vim'
     " Plug 'rbgrouleff/bclose.vim'
