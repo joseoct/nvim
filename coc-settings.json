@@ -39,6 +39,8 @@
     "css",
     "markdown",
     "javascript",
+    "typescript",
+    "typescriptreact",
     "graphql",
     "html",
     "yaml",
@@ -90,10 +92,10 @@
   },
 
   // CSS (disable since I'm also using stylelintplus)
-  "css.validate": false,
-  "less.validate": false,
-  "scss.validate": false,
-  "wxss.validate": false,
+  //"css.validate": false,
+  //"less.validate": false,
+  //"scss.validate": false,
+  //"wxss.validate": false,
 
   // explorer
   "explorer.width": 30,

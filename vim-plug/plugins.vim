@@ -117,6 +117,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'dracula/vim', { 'as': 'dracula' }
     " CSS highlight
     Plug 'hail2u/vim-css3-syntax'
+    " Eslint
+    Plug 'w0rp/ale'
     " Rainbow brackets
     " Plug 'luochen1990/rainbow'
     " Async Linting Engine
