@@ -83,7 +83,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Interactive code
     Plug 'metakirby5/codi.vim'
     " Better tabline
-    " Plug 'romgrk/barbar.nvim'
+    Plug 'romgrk/barbar.nvim'
     " undo time travel
     Plug 'mbbill/undotree'
     " Find and replace
@@ -150,7 +150,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Typescript syntax
     " Plug 'HerringtonDarkholme/yats.vim'
     " Multiple Cursors
-    " Plug 'terryma/vim-multiple-cursors'
+    Plug 'terryma/vim-multiple-cursors'
     Plug 'kaicataldo/material.vim'
     " Plug 'tomasiser/vim-code-dark'
     " Plug 'mg979/vim-xtabline'

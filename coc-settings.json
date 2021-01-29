@@ -105,6 +105,9 @@
   "explorer.icon.enableVimDevicons": false,
   "explorer.file.showHiddenFiles": false,
   "explorer.keyMappings.global": {
+    "y": "copyFile",
+    "x": "cutFile",
+    "D": "delete",
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   },
@@ -120,7 +123,7 @@
   "bookmark.sign": "",
 
   //coc-emoji
-  "coc.source.emoji.filetypes": ["markdown"]
+  "coc.source.emoji.filetypes": ["markdown"],
 
   // lua
   //"lua.useSumnekoLs": true,
