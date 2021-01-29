@@ -130,7 +130,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'ntpeters/vim-better-whitespace'
     " Multiple Cursors
     " TODO add this back in change from C-n
-    " Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+    Plug 'mg979/vim-visual-multi', {'branch': 'master'}
     " Plug 'yuezk/vim-js'
     " Plug 'maxmellon/vim-jsx-pretty'
     " Plug 'jelera/vim-javascript-syntax'
@@ -150,7 +150,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Typescript syntax
     " Plug 'HerringtonDarkholme/yats.vim'
     " Multiple Cursors
-    Plug 'terryma/vim-multiple-cursors'
+    " Plug 'terryma/vim-multiple-cursors'
     Plug 'kaicataldo/material.vim'
     " Plug 'tomasiser/vim-code-dark'
     " Plug 'mg979/vim-xtabline'
