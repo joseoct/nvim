@@ -40,7 +40,7 @@ let bufferline.semantic_letters = v:true
 let bufferline.letters =
   \ 'asdfjkl;ghnmxcvbziowerutyqpASDFJKLGHNMXCVBZIOWERUTYQP'
 
-let bg_current = get(nvim_get_hl_by_name('Normal',     1), #111111')
+let bg_current = get(nvim_get_hl_by_name('Normal',     1), 'background', '#000000')
 let bg_visible = get(nvim_get_hl_by_name('TabLineSel', 1), 'background', '#000000')
 let bg_inactive = get(nvim_get_hl_by_name('TabLine',   1), 'background', '#000000')
 
