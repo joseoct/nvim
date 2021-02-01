@@ -38,6 +38,7 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
 
 
 " Single mappings
+let g:which_key_map['b'] = [ ':Buffers'               , 'open buffers' ]
 let g:which_key_map['/'] = [ ':call Comment()'                                 , 'comment' ]
 let g:which_key_map['.'] = [ ':e $MYVIMRC'                                     , 'open init' ]
 let g:which_key_map[';'] = [ ':Commands'                                       , 'commands' ]
@@ -45,11 +46,11 @@ let g:which_key_map['='] = [ '<C-W>='                                          ,
 let g:which_key_map['e'] = [ ':CocCommand explorer --toggle --sources=file+'   , 'explorer' ]
 let g:which_key_map['h'] = [ '<C-W>s'                                          , 'split below']
 let g:which_key_map['n'] = [ ':let @/ = ""'                                    , 'no highlight' ]
-let g:which_key_map['o'] = [ ':RnvimrToggle'                                   , 'open' ]
-let g:which_key_map['p'] = [ ':Files'                                          , 'search files' ]
-let g:which_key_map['q'] = [ '<Plug>(coc-fix-current)'                         , 'quickfix' ]
-let g:which_key_map['T'] = [ ':TSHighlightCapturesUnderCursor'                 , 'treesitter highlight' ]
-let g:which_key_map['u'] = [ ':UndotreeToggle'                                 , 'undo tree']
+let g:which_key_map['o'] = [ ':rnvimrtoggle'                                   , 'open' ]
+let g:which_key_map['p'] = [ ':files'                                          , 'search files' ]
+let g:which_key_map['q'] = [ '<plug>(coc-fix-current)'                         , 'quickfix' ]
+let g:which_key_map['t'] = [ ':tshighlightcapturesundercursor'                 , 'treesitter highlight' ]
+let g:which_key_map['u'] = [ ':undotreetoggle'                                 , 'undo tree']
 let g:which_key_map['v'] = [ '<C-W>v'                                          , 'split right']
 let g:which_key_map['W'] = [ ':call WindowSwap#EasyWindowSwap()'               , 'move window' ]
 let g:which_key_map['z'] = [ 'Goyo'                                            , 'zen' ]
@@ -76,9 +77,8 @@ let g:which_key_map.a = {
       \ }
 
 " b is for buffer
-let g:which_key_map.b = {
+let g:which_key_map.B = {
       \ 'name' : '+buffer' ,
-      \ 'b' : [':Buffers'               , 'open buffers'],
       \ '>' : [':BufferMoveNext'        , 'move next'],
       \ '<' : [':BufferMovePrevious'    , 'move prev'],
       \ '1' : [':BufferGoto 1'          , 'buffer 1'],
