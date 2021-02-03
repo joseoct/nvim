@@ -47,7 +47,7 @@ let g:which_key_map['e'] = [ ':CocCommand explorer --toggle --sources=file+'   ,
 let g:which_key_map['h'] = [ '<C-W>s'                                          , 'split below']
 let g:which_key_map['n'] = [ ':let @/ = ""'                                    , 'no highlight' ]
 let g:which_key_map['o'] = [ ':rnvimrtoggle'                                   , 'open' ]
-let g:which_key_map['p'] = [ ':files'                                          , 'search files' ]
+let g:which_key_map['p'] = [ ':Files'                                          , 'search files' ]
 let g:which_key_map['q'] = [ '<plug>(coc-fix-current)'                         , 'quickfix' ]
 let g:which_key_map['t'] = [ ':tshighlightcapturesundercursor'                 , 'treesitter highlight' ]
 let g:which_key_map['u'] = [ ':undotreetoggle'                                 , 'undo tree']
