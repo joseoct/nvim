@@ -23,7 +23,7 @@ else
 
   " Themes
   source $HOME/.config/nvim/themes/syntax.vim
-  source $HOME/.config/nvim/themes/onedark.vim
+  source $HOME/.config/nvim/themes/dracula.vim
   
   " Plugin Configuration
   source $HOME/.config/nvim/keys/which-key.vim
