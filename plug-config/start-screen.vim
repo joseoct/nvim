@@ -35,7 +35,7 @@ function! StartifyEntryFormat()
 let g:startify_bookmarks = [
             \ { 'n': '~/.config/nvim' },
             \ { 'g': '~/Documents/Github' },
-            \ { 'a': '~/Documents/aleatoriedades' },
+            \ { 'a': '~/Documents/Brincando/aleatoriedades' },
             \ { 'z': '~/.zshrc' },
             \ ]
 
